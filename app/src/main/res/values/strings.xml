@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Peluditos.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_denunciar__maltrato">Denunciar_Maltrato</string>
+</resources>

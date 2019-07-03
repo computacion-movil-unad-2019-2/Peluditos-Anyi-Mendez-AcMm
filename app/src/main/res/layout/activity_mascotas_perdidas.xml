@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mascotas_perdidas">
+
+    <LinearLayout
+        android:id="@+id/ListResul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/AddMascotap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Addmascotaperdida"
+                android:text="Agregar Mascota Perdida"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/BtnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Addmascotaperdida"
+                android:text=" Buscar Reporte de Mascota"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_weight="0.1">
+
+            <ListView
+                android:id="@+id/lvLista"
+                android:layout_width="match_parent"
+                android:layout_height="459dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="59dp"></ListView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
